@@ -15,19 +15,62 @@
  *= require_self
  */
 
+html, body {
+  color: #881F1F;
+  font-family: 'Muli', sans-serif;
+}
+
 footer {
   padding: 5px;
-  background: ;
-  color: white;
+  background: white;
+  color: #881F1F;
+  border-top: 1px solid #E2EDE7;
   width: 100%;
   position: fixed;
   bottom: 0px;
   left: 0;
 }
 
+footer, .row, h5 {
+  color: #881F1F;
+}
+
 .fa {
   padding-top: 4px;
   display: inline-block;
-  color : white;
-  font-size: 25px;
+  color: #881F1F;
+  font-size: 20px;
 }
+
+.navbar-right >li > a {
+  margin-top: 30px;
+  margin-right: 50px;
+  margin-left: 50px;
+}
+
+#navbar-maua {
+  color: #881F1F;
+  font-family: 'Muli', sans-serif;
+}
+
+#navbar-maua:hover {
+  border-bottom: 2px solid #881F1F;
+  font-family: 'Muli', sans-serif;
+}
+
+#navbar-tittle{
+  color: #881F1F;
+  font-size: 30px;
+  padding-left: 50px;
+  padding-top: 40px;
+}
+
+
+.navbar-brand {
+ width: 10px;
+ height: 10px;
+}
+
+
+
+

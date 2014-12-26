@@ -1,0 +1,17 @@
+html, body {
+  background-color: #fff;
+  background-image: 'flowers.jpg';
+  font-family: 'Open Sans', sans-serif;
+  position: relative;
+  height: 100%;
+}
+
+.wrapper {
+  background-size: cover;
+  background-image:url(asset_path('flowers.jpg', image));
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  color: white;
+  position: absolute;
+}
