@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html>
+
 <head>
   <title>Maua</title>
 
@@ -9,9 +10,52 @@
   <%= javascript_include_tag 'application', 'data-turbolinks-track' => true %>
   <%= csrf_meta_tags %>
 </head>
+
 <body>
 
+    <div class="navbar navbar-default navbar-fixed-top">
+      <div class="container">
+
+        <div class="navbar-header">
+          <a> <%= link_to "Maua", root_path, class: "navbar-brand" %></a>
+        </div>
+
+        <div class="nav navbar-nav navbar-right">
+          <li><a>Mission</a></li>
+          <li><a>Projets</a></li>
+          <li><a>Equipe</a></li>
+          <li><a>Contact</a></li>
+        </div>
+
+      </div>
+    </div>
+
 <%= yield %>
+
+<footer>
+  <div class="container">
+    <div class="row">
+      <div class="col-sm-6">
+        <h4>Maua - Restauring Africa Dignity</h4>
+      </div>
+      <div class="col-sm-6">
+        <ul class="list-inline social text-center">
+          <li>
+            <a href="https://twitter.com">
+              <i class="fa fa-twitter"></i>
+            </a>
+          </li>
+          <li>
+            <a href="https://facebook.com">
+              <i class="fa fa-facebook"></i>
+            </a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</footer>
+
 
 <script type="text/javascript" src="http://cdn.jsdelivr.net/jquery.slick/1.3.7/slick.min.js"></script>
 </body>

@@ -14,3 +14,20 @@
  *= require_tree .
  *= require_self
  */
+
+footer {
+  padding: 5px;
+  background: ;
+  color: white;
+  width: 100%;
+  position: fixed;
+  bottom: 0px;
+  left: 0;
+}
+
+.fa {
+  padding-top: 4px;
+  display: inline-block;
+  color : white;
+  font-size: 25px;
+}
