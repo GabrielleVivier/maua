@@ -18,7 +18,12 @@
 html, body {
   color: #881F1F;
   font-family: 'Muli', sans-serif;
+  background-color: #fff;
+  background-image:url(asset_path('flowers.jpg', image));
+  position: relative;
+  height: 100%;
 }
+
 
 footer {
   padding: 5px;
@@ -60,9 +65,7 @@ footer, .row, h5 {
 
 #navbar-tittle{
   color: #881F1F;
-  font-size: 30px;
   padding-left: 50px;
-  padding-top: 40px;
 }
 
 
