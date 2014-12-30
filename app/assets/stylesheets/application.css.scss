@@ -16,19 +16,22 @@
  */
 
 html, body {
-  color: #881F1F;
+  color: white;
   font-family: 'Muli', sans-serif;
-  background-color: #fff;
-  background-image:url(asset_path('flowers.jpg', image));
+  background-color: black;
+/*  background:url(asset_path('yaounde.jpg', image)) no-repeat;
+  background-size: cover;*/
+/*  position: relative;*/
+/*  background-image:url(asset_path('yaounde.png', image));
   position: relative;
-  height: 100%;
+  height: 100%;*/
 }
 
 
 footer {
   padding: 5px;
   background: white;
-  color: #881F1F;
+  color: white;
   border-top: 1px solid #E2EDE7;
   width: 100%;
   position: fixed;
@@ -37,24 +40,24 @@ footer {
 }
 
 footer, .row, h5 {
-  color: #881F1F;
+  color: white;
 }
 
 .fa {
   padding-top: 4px;
   display: inline-block;
-  color: #881F1F;
+  color: white;
   font-size: 20px;
+  margin: 30px;
 }
 
 .navbar-right >li > a {
-  margin-top: 30px;
   margin-right: 50px;
   margin-left: 50px;
 }
 
 #navbar-maua {
-  color: #881F1F;
+  color: white;
   font-family: 'Muli', sans-serif;
 }
 
@@ -64,7 +67,7 @@ footer, .row, h5 {
 }
 
 #navbar-tittle{
-  color: #881F1F;
+  color: white;
   padding-left: 50px;
 }
 
@@ -74,6 +77,26 @@ footer, .row, h5 {
  height: 10px;
 }
 
+#baseline {
+  /*background: rgba(0, 0, 0, .8);*/
+  color: white;
+  margin-top: 100px;
+  font-size: 50px;
+  text-transform: uppercase;
+  text-shadow: rgba(0, 0, 0, 1);
+}
+
+#baseline-background {
+  background:url(asset_path('yaounde.jpg', image)) no-repeat;
+  background-size: cover;
+  height: 600px;
+  text-shadow: rgba(0, 0, 0, 1);
+}
+
+#top {
+  background: rgba(0, 0, 0, .4);
+  border: none;
+}
 
 
 

@@ -13,7 +13,7 @@
 <body>
 
 
-<nav class="navbar navbar-default">
+<nav class="navbar navbar-default" id="top">
   <div class="container-fluid">
     <!-- Brand and toggle get grouped for better mobile display -->
     <div class="navbar-header">
@@ -29,24 +29,15 @@
     <!-- Collect the nav links, forms, and other content for toggling -->
     <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
       <ul class="nav navbar-nav">
-        <li><a id="navbar-tittle"><%= link_to 'Maua - Restauring Africa Dignity', root_path, id: "navbar-tittle"%></a></li>
+        <li><a id="navbar-tittle"><%= link_to 'Home', root_path, id: "navbar-tittle"%></a></li>
       </ul>
       <ul class="nav navbar-nav navbar-right navbar-maua">
 <!--         <li><a id="navbar-maua">Mission</a></li>
         <li><a id="navbar-maua">Projets</a></li>
         <li><a id="navbar-maua">Equipe</a></li> -->
         <!-- <li><a id="navbar-maua">Contacts</a></li> -->
-        <li><a>Follow us</a>
-        <li>
-          <a href="https://facebook.com/MauaAfrica" id="navbar-maua">
-            <i class="fa fa-facebook"></i>
-          </a>
-        </li>
-        <li>
-          <a href="https://twitter.com/MauaAfrica" id="navbar-maua">
-            <i class="fa fa-twitter"></i>
-          </a>
-        </li>
+        <li><a><%= link_to 'A propos', maua_description_path, id: "navbar-maua"%></a></li>
+        <li><a id="navbar-maua"><%= link_to 'Equipe', staff_description_path, id: "navbar-maua"%></a></li>
       </ul>
     </div><!-- /.navbar-collapse -->
   </div><!-- /.container-fluid -->
