@@ -80,14 +80,14 @@ footer, .row, h5 {
 #baseline {
   /*background: rgba(0, 0, 0, .8);*/
   color: white;
-  margin-top: 100px;
+  margin-top: 80px;
   font-size: 50px;
   text-transform: uppercase;
   text-shadow: rgba(0, 0, 0, 1);
 }
 
 #baseline-background {
-  background:url(asset_path('yaounde.jpg', image)) no-repeat;
+  background:url(asset_path('rsa.jpg', image)) no-repeat;
   background-size: cover;
   height: 600px;
   text-shadow: rgba(0, 0, 0, 1);
