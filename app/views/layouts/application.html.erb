@@ -31,13 +31,13 @@
       <ul class="nav navbar-nav">
         <li><a id="navbar-tittle"><%= link_to 'Home', root_path, id: "navbar-tittle"%></a></li>
       </ul>
-      <ul class="nav navbar-nav navbar-right navbar-maua">
+      <ul class="nav navbar-nav navbar-right">
 <!--         <li><a id="navbar-maua">Mission</a></li>
         <li><a id="navbar-maua">Projets</a></li>
         <li><a id="navbar-maua">Equipe</a></li> -->
         <!-- <li><a id="navbar-maua">Contacts</a></li> -->
-        <li><a><%= link_to 'A propos', maua_description_path, id: "navbar-maua"%></a></li>
-        <li><a id="navbar-maua"><%= link_to 'Equipe', staff_description_path, id: "navbar-maua"%></a></li>
+        <li><a><%= link_to 'About', maua_description_path, id: "navbar-maua"%></a></li>
+        <li><a><%= link_to 'Team', staff_description_path, id: "navbar-maua"%></a></li>
       </ul>
     </div><!-- /.navbar-collapse -->
   </div><!-- /.container-fluid -->
@@ -45,26 +45,27 @@
 
 <%= yield %>
 
-<!-- <footer>
+<div class="row">
+<footer>
   <div class="container-fluid">
     <div class="row text-center">
-      <h5>Maua - Restauring Africa Dignity</h5>
       <ul class="list-inline social text-center">
-        <h7>Follow us</h7>
+        <h7>@Maua2015 - Follow us</h7>
         <li>
-          <a href="https://twitter.com">
+          <a href="https://twitter.com/MauaAfrica">
             <i class="fa fa-twitter"></i>
           </a>
         </li>
         <li>
-          <a href="https://facebook.com">
+          <a href="https://facebook.com/MauaAfrica">
             <i class="fa fa-facebook"></i>
           </a>
         </li>
       </ul>
     </div>
   </div>
-</footer> -->
+</footer>
+</div>
 
 <script type="text/javascript" src="http://cdn.jsdelivr.net/jquery.slick/1.3.7/slick.min.js"></script>
 </body>

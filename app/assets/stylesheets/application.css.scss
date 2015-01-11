@@ -16,9 +16,9 @@
  */
 
 html, body {
-  color: white;
+  color: #DF9F45;
   font-family: 'Muli', sans-serif;
-  background-color: black;
+  background-color: white;
 /*  background:url(asset_path('yaounde.jpg', image)) no-repeat;
   background-size: cover;*/
 /*  position: relative;*/
@@ -31,33 +31,33 @@ html, body {
 footer {
   padding: 5px;
   background: white;
-  color: white;
+  color: #DF662A;
   border-top: 1px solid #E2EDE7;
   width: 100%;
   position: fixed;
   bottom: 0px;
-  left: 0;
+  left: 0px;
 }
 
 footer, .row, h5 {
-  color: white;
+  color: #DF662A;
 }
 
 .fa {
   padding-top: 4px;
   display: inline-block;
-  color: white;
+  color: #DF662A;
   font-size: 20px;
-  margin: 30px;
+  margin: 20px;
 }
 
 .navbar-right >li > a {
-  margin-right: 50px;
-  margin-left: 50px;
+  margin-right: 20px;
+  margin-left: 20px;
 }
 
 #navbar-maua {
-  color: white;
+  color: #DF662A;
   font-family: 'Muli', sans-serif;
 }
 
@@ -67,7 +67,7 @@ footer, .row, h5 {
 }
 
 #navbar-tittle{
-  color: white;
+  color: #DF662A;
   padding-left: 50px;
 }
 
@@ -79,22 +79,22 @@ footer, .row, h5 {
 
 #baseline {
   /*background: rgba(0, 0, 0, .8);*/
-  color: white;
-  margin-top: 80px;
+  color: #DF662A;
+  margin-top: 35px;
   font-size: 50px;
   text-transform: uppercase;
   text-shadow: rgba(0, 0, 0, 1);
 }
 
 #baseline-background {
-  background:url(asset_path('rsa.jpg', image)) no-repeat;
+  background:url(asset_path('african_entrepreneur.jpg', image)) no-repeat;
   background-size: cover;
-  height: 600px;
+  height: 460px;
   text-shadow: rgba(0, 0, 0, 1);
 }
 
 #top {
-  background: rgba(0, 0, 0, .4);
+  background: rgba(0, 0, 0, 0);
   border: none;
 }
 
