@@ -1,0 +1,38 @@
+<nav class="navbar navbar-default">
+  <div class="container-fluid">
+    <!-- Brand and toggle get grouped for better mobile display -->
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#menu">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <%= link_to root_path, class: 'navbar-brand' do %>
+        <%= image_tag 'full_logo.png', alt: 'Maua', class: 'site-logo' %>
+      <% end %>
+    </div>
+
+    <!-- Collect the nav links, forms, and other content for toggling -->
+    <div class="collapse navbar-collapse" id="menu">
+      <ul class="nav navbar-nav">
+        <li><%= link_to 'Home', root_path %></li>
+      </ul>
+
+      <ul class="nav navbar-nav navbar-right">
+        <li><%= link_to 'About', maua_description_path %></li>
+        <li><%= link_to 'Team', staff_description_path %></li>
+        <li>
+          <%= link_to 'https://twitter.com/MauaAfrica' do %>
+            <i class="fa fa-twitter"></i>
+          <% end %>
+        </li>
+        <li>
+          <%= link_to 'https://facebook.com/MauaAfrica' do %>
+            <i class="fa fa-facebook"></i>
+          <% end %>
+        </li>
+      </ul>
+    </div><!-- /.navbar-collapse -->
+  </div><!-- /.container-fluid -->
+</nav>
